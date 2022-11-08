@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <span id="find-again">Find again</span>
+    <div class="container" data-aos="zoom-in-down" data-aos-duration="2000">
+        <h1 id="conatiner-heading" data-aos="zoom-out-right" data-aos-duration="2000">Most Frequent Element In An Array</h1>
+        <input id="input-array" type="text" placeholder="Enter numbers, seperated by spaces..." data-aos="zoom-in-left" data-aos-duration="2000">
+        <button id="submit-button" >Click to find</button>
+        <span id="error-popup"></span>
+        <h3 >Output : <span id="output"></span></h3>
+    </div>
+    <span id="info-button">ℹ</span>
+    <div id="info-popup">
+        The frequency of an element is the number of times it occurs in an array.
+        If any number appears more or equal to n/2 times, then it is the most frequent element.
+        <br>Eg: [1, 2, 3, 2, 2, 2, 5] <br>Here, 2 is the most frequent element.
+        
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

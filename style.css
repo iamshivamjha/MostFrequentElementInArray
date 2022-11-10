@@ -17,10 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
-
 }
-
 .container{
     border: #06585e 1px solid;
     /* margin-top: 10px; */
@@ -35,17 +32,14 @@ body{
     
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-    
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);  
 }
-
 #conatiner-heading{
     /* text-align: center; */
     font-size: 50px;
     margin-bottom: 50px;
     color: white;
 }
-
 #input-array{
     display: block;
     height: 50px;
@@ -119,7 +113,7 @@ h3{
 }
 
 #find-again:hover{
-    background-color: rgba(92, 89, 181, 0.5)
+    background-color: rgba(92, 89, 181, 0.5);
     /* transform: scale(1.02); */
 }
 #info-button{
@@ -186,12 +180,18 @@ h3{
     overflow: auto;
     /* transition: all 0.5s ease; */
 }
-
-@media only screen and (max-width: 620px ){
+@media only screen and (max-width: 600px ){
     
    body{
 
     background-image:linear-gradient(rgb(100, 43, 192),rgb(201, 190, 212));
+
+   }
+   .container{
+    
+        margin: 5% 10% 5% 10%;
+        width: auto;
+
    }
 }
 
